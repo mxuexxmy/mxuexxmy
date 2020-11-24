@@ -30,6 +30,7 @@
   * [醒梦人生](https://new.qq.com/omn/20180619/20180619A1ZVC7.html)
 
   * [我愿在你身旁](http://www.zgshige.com/c/2019-04-09/9105096.shtml)
+  * [深夜，生活面见我](https://www.jianshu.com/p/e7b50e0f9d72)
   * [相约德溪](http://www.zgshige.com/c/2019-04-09/9104987.shtml)
   * [腊八节，在黔西](http://www.zgshige.com/c/2019-02-13/8529513.shtml)
   * [程序员的秋](http://www.zgshige.com/c/2018-10-25/7503696.shtml)
