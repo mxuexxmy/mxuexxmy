@@ -11,6 +11,8 @@
 
   > 入选：**2020 github archive program **
 
+* [Translate-3-2-1-newsletter](https://github.com/mxuexxmy/Translate-3-2-1-newsletter)
+
 * [CollectionOfBooks](https://github.com/mxuexxmy/CollectionOfBooks)
 
 ### 文章
