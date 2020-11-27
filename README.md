@@ -9,7 +9,7 @@
 
 * [2019HolidaysTrain](https://github.com/mxuexxmy/2019HolidaysTrain)
 
-  > 入选：**2020 github archive program **
+  >#### 入选：2020 github archive program 
 
 * [Translate-3-2-1-newsletter](https://github.com/mxuexxmy/Translate-3-2-1-newsletter)
 
