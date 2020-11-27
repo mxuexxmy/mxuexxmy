@@ -13,6 +13,8 @@
 
 * [Translate-3-2-1-newsletter](https://github.com/mxuexxmy/Translate-3-2-1-newsletter)
 
+* [love-story](https://github.com/mxuexxmy/love-story)
+
 * [CollectionOfBooks](https://github.com/mxuexxmy/CollectionOfBooks)
 
 ### 文章
