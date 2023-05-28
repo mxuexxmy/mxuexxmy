@@ -4,25 +4,15 @@
 
 #### 仓库集
 * [query-name](https://github.com/mxuexxmy/query-name)
-
 * [professions](https://github.com/mxuexxmy/professions)
-
 * [2019HolidaysTrain](https://github.com/mxuexxmy/2019HolidaysTrain)
-
   >#### 入选：2020 github archive program 
-
 * [Translate-3-2-1-newsletter](https://github.com/mxuexxmy/Translate-3-2-1-newsletter)
-
 * [love-story](https://github.com/mxuexxmy/love-story)
-
 * [CollectionOfBooks](https://github.com/mxuexxmy/CollectionOfBooks)
-
 ### 文章
-
 * [人在路上·梦在途中](https://mp.weixin.qq.com/s/NFxldytnuXslYPxSfKOIhQ)
-
 #### 诗歌集
-
 * 龙兴
   *  咏欲飞
 * 玄兴梦影   
