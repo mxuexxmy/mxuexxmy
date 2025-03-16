@@ -1,6 +1,6 @@
 ### Hi , I'm mxuexxmy (玄兴梦影)👋
 
-> 代码是生活，诗歌是精神。做一个诗意的程序员。
+> 代码是生活，诗歌是精神。做一个诗意的工程师。
 
 #### 仓库集
 * [query-name](https://github.com/mxuexxmy/query-name)
