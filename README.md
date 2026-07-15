@@ -105,7 +105,7 @@ Outside of code, I write poetry and essays — trying to keep engineering and la
 
 ## GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mxuexxmy&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true)
+![GitHub Stats](https://github-stats-extended.vercel.app/api?username=mxuexxmy&show_icons=true&theme=tokyonight&hide_border=true)
 
 ---
 
