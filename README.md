@@ -1,47 +1,78 @@
 <div align="center">
 
-### Hi, I'm mxuexxmy (玄兴梦影) 👋
+### Hi, I'm mxuexxmy (玄兴梦影)
 
 > Code is life, poetry is spirit. Be a poetic engineer.  
 > 代码是生活，诗歌是精神。做一个诗意的工程师。
 
-Full-stack engineer · Industrial Internet · Kunming, China  
-全栈工程师 · 工业互联网 · 昆明
+`Full-stack` · `Industrial Internet` · `LazyCat MicroServer` · `Kunming, China`  
+`全栈` · `工业互联网` · `懒猫微服` · `昆明`
 
-[![InfoQ](https://img.shields.io/badge/InfoQ-mxuexxmy-007EC6?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTEyIDJMMTMuMDkgOC4yNkwyMCA5bC01LjQ2IDQuNzRMMTMuMDkgMTguNTIgMTIgMjIgMTAuOTEgMTguNTIgNC41IDlsNi45MS0uNzRMMTIgMnoiLz48L3N2Zz4=)](https://infoq.cn/u/mxuexxmy/)
+[![InfoQ](https://img.shields.io/badge/InfoQ-mxuexxmy-007EC6?style=flat-square)](https://infoq.cn/u/mxuexxmy/)
 [![Twitter](https://img.shields.io/badge/Twitter-@mxuexxmy-1DA1F2?style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/mxuexxmy)
-[![Email](https://img.shields.io/badge/Email-1989718921%40qq.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:1989718921@qq.com)
+[![GitHub](https://img.shields.io/badge/GitHub-mxuexxmy-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/mxuexxmy)
 
 </div>
 
 ---
 
-## About
+## About / 关于
 
 I'm a full-stack engineer at **Hualong Xunda**, building systems for the industrial internet.  
 我在 **华龙讯达** 从事工业互联网相关的全栈开发。
 
-Most of my work centers on **Java** backends, with **Vue** and **JavaScript** on the frontend. I also explore **LazyCat MicroServer** (懒猫微服) ecosystem apps and AI tooling.
+Most of my work centers on **Java / Spring** backends, with **Vue / TypeScript** on the frontend. I also explore **LazyCat MicroServer** ecosystem apps and **AI agent tooling**.
 
 Outside of code, I write poetry and essays — trying to keep engineering and language in the same breath.
 
 ---
 
-## Tech Stack
+## Now Building / 正在构建
 
-`Java` · `Spring` · `Vue` · `JavaScript` · `TypeScript` · `Python` · `Docker` · `Linux`
+<!-- profile:start:now-building -->
+| Project | Tags | Lang | Stars | Updated | Description / 简介 |
+| --- | --- | --- | ---: | --- | --- |
+| [awesome-LazyCat-Microserver](https://github.com/mxuexxmy/awesome-LazyCat-Microserver) | `LazyCat` `Ecosystem` | — | 4 | 2026-06-10 | Curated resources for LazyCat MicroServer / 懒猫微服资源大全 |
+| [BiliNote-lzc-app](https://github.com/mxuexxmy/BiliNote-lzc-app) | `LazyCat` `AI` | — | 3 | 2025-06-29 | BiliNote packaged as a LazyCat MicroServer app / BiliNote 懒猫微服应用 |
+| [lazycat-app](https://github.com/mxuexxmy/lazycat-app) | `LazyCat` `Vue` | Vue | 2 | 2025-07-28 | LazyCat application development workspace / 懒猫微服应用开发 |
+| [xifeng-style-writer](https://github.com/mxuexxmy/xifeng-style-writer) | `AI` `Agent` | — | 1 | 2026-04-24 | Writing-style SKILL for AI agents / 西风/记忆承载风格 AI Agent Skill |
+| [printing-service](https://github.com/mxuexxmy/printing-service) | `Java` `Full-stack` | Java | 1 | 2025-07-04 | Backend service for Rongrong Print / 荣荣打印后端服务 |
+| [professions](https://github.com/mxuexxmy/professions) | `Java` `Education` | HTML | 3 | 2024-08-21 | Major curriculum management system / 专业培养方案管理系统 |
+<!-- profile:end:now-building -->
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Vue](https://img.shields.io/badge/Vue-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+<!-- profile:start:maintenance -->
+> Profile metrics auto-refreshed via GitHub Actions · 数据自动更新于 **2026-07-15 15:26 UTC**
+<!-- profile:end:maintenance -->
 
 ---
 
-## Featured Projects
+## Focus / 当前方向
 
-| Project | Description |
+```text
+Industrial Systems   Java · Spring · Vue · Docker
+LazyCat Ecosystem    MicroServer apps · lpk packaging · Traefik routing
+AI Tooling           Agent skills · writing workflows · automation
+Engineering + Words  code by day, poetry by night
+```
+
+---
+
+## Tech Stack / 技术栈
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Spring](https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=spring&logoColor=white)
+![Vue](https://img.shields.io/badge/Vue-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+
+---
+
+## Featured Projects / 精选项目
+
+| Project | Description / 简介 |
 | --- | --- |
 | [awesome-LazyCat-Microserver](https://github.com/mxuexxmy/awesome-LazyCat-Microserver) | Awesome list for LazyCat MicroServer / 懒猫微服资源大全 |
 | [BiliNote-lzc-app](https://github.com/mxuexxmy/BiliNote-lzc-app) | BiliNote as a LazyCat MicroServer app |
@@ -53,7 +84,7 @@ Outside of code, I write poetry and essays — trying to keep engineering and la
 | [2019HolidaysTrain](https://github.com/mxuexxmy/2019HolidaysTrain) | 2019 summer ICPC training notes — **selected for the [GitHub Archive Program](https://archiveprogram.github.com/) (2020)** |
 
 <details>
-<summary><b>More repositories</b></summary>
+<summary><b>More repositories / 更多仓库</b></summary>
 
 - [love-story](https://github.com/mxuexxmy/love-story)
 - [CollectionOfBooks](https://github.com/mxuexxmy/CollectionOfBooks) — curated book list
@@ -65,18 +96,18 @@ Outside of code, I write poetry and essays — trying to keep engineering and la
 
 ---
 
-## Writing & Poetry
+## Writing & Poetry / 写作与诗歌
 
-**Essays**
+**Essays / 文章**
 
-- [人在路上·梦在途中](https://mp.weixin.qq.com/s/NFxldytnuXslYPxSfKOIhQ)
+- [人在路上·梦在途中](https://mp.weixin.qq.com/s/NFxldytnuXslYPxSfKOIhQ) — WeChat essay / 微信公众号
 
-**Poetry · 玄兴梦影**
+**Poetry · 玄兴梦影** *(poetic pen name / 诗歌笔名)*
 
 [梦幻九月](https://mp.weixin.qq.com/s?src=11&timestamp=1606197141&ver=2725&signature=eVVMhOoXHfNQtvv0qraNOFROXH97DpZR6il-qn77HZRb-uR47QLhop2*xpwmEcj4ZazcIGVS0v8MyPbEMSIHPUh2fWCmefl5NSrCSId65r866nMF-hLHjhC2fdLVsxzs&new=1) · [偷时光](https://www.sohu.com/a/271410642_581694) · [我见过的唯一月亮](http://mini.eastday.com/a/180627132001527.html) · [父亲](https://www.sohu.com/a/236518971_581694) · [程序员的秋](http://www.zgshige.com/c/2018-10-25/7503696.shtml) · [与树说诗的程序员](http://www.zgshige.com/c/2018-10-09/7347609.shtml)
 
 <details>
-<summary><b>More poems</b></summary>
+<summary><b>More poems / 更多诗歌</b></summary>
 
 - [雨说](https://www.sohu.com/a/239588684_581694)
 - [醒梦人生](https://new.qq.com/omn/20180619/20180619A1ZVC7.html)
@@ -95,7 +126,7 @@ Outside of code, I write poetry and essays — trying to keep engineering and la
 - [我把爱丢了](http://www.zgshige.com/c/2018-09-02/7058672.shtml)
 - [小窗](http://www.zgshige.com/c/2018-09-02/7058606.shtml)
 
-**Poetry · 沐雪程序员**
+**Poetry · 沐雪程序员** *(programmer pen name / 程序员笔名)*
 
 - [编程式爱情](https://www.sohu.com/a/281021777_284898)
 
@@ -103,9 +134,9 @@ Outside of code, I write poetry and essays — trying to keep engineering and la
 
 ---
 
-## GitHub Stats
+## Profile Metrics / 数据概览
 
-![GitHub Stats](https://github-stats-extended.vercel.app/api?username=mxuexxmy&show_icons=true&theme=tokyonight&hide_border=true)
+![Profile Stats](./assets/profile-stats.svg)
 
 ---
 

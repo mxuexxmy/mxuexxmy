@@ -1,0 +1,41 @@
+{
+  "username": "mxuexxmy",
+  "featured": [
+    {
+      "repo": "awesome-LazyCat-Microserver",
+      "tags": ["LazyCat", "Ecosystem"],
+      "description_en": "Curated resources for LazyCat MicroServer",
+      "description_zh": "懒猫微服资源大全"
+    },
+    {
+      "repo": "BiliNote-lzc-app",
+      "tags": ["LazyCat", "AI"],
+      "description_en": "BiliNote packaged as a LazyCat MicroServer app",
+      "description_zh": "BiliNote 懒猫微服应用"
+    },
+    {
+      "repo": "lazycat-app",
+      "tags": ["LazyCat", "Vue"],
+      "description_en": "LazyCat application development workspace",
+      "description_zh": "懒猫微服应用开发"
+    },
+    {
+      "repo": "xifeng-style-writer",
+      "tags": ["AI", "Agent"],
+      "description_en": "Writing-style SKILL for AI agents",
+      "description_zh": "西风/记忆承载风格 AI Agent Skill"
+    },
+    {
+      "repo": "printing-service",
+      "tags": ["Java", "Full-stack"],
+      "description_en": "Backend service for Rongrong Print",
+      "description_zh": "荣荣打印后端服务"
+    },
+    {
+      "repo": "professions",
+      "tags": ["Java", "Education"],
+      "description_en": "Major curriculum management system",
+      "description_zh": "专业培养方案管理系统"
+    }
+  ]
+}
