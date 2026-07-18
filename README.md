@@ -32,7 +32,7 @@ Outside of code, I write poetry and essays — trying to keep engineering and la
 <!-- profile:start:now-building -->
 | Project | Tags | Lang | Stars | Updated | Description / 简介 |
 | --- | --- | --- | ---: | --- | --- |
-| [awesome-LazyCat-Microserver](https://github.com/mxuexxmy/awesome-LazyCat-Microserver) | `LazyCat` `Ecosystem` | — | 4 | 2026-06-10 | Curated resources for LazyCat MicroServer / 懒猫微服资源大全 |
+| [awesome-LazyCat-Microserver](https://github.com/mxuexxmy/awesome-LazyCat-Microserver) | `LazyCat` `Ecosystem` | — | 5 | 2026-06-10 | Curated resources for LazyCat MicroServer / 懒猫微服资源大全 |
 | [BiliNote-lzc-app](https://github.com/mxuexxmy/BiliNote-lzc-app) | `LazyCat` `AI` | — | 3 | 2025-06-29 | BiliNote packaged as a LazyCat MicroServer app / BiliNote 懒猫微服应用 |
 | [lazycat-app](https://github.com/mxuexxmy/lazycat-app) | `LazyCat` `Vue` | Vue | 2 | 2025-07-28 | LazyCat application development workspace / 懒猫微服应用开发 |
 | [xifeng-style-writer](https://github.com/mxuexxmy/xifeng-style-writer) | `AI` `Agent` | — | 1 | 2026-04-24 | Writing-style SKILL for AI agents / 西风/记忆承载风格 AI Agent Skill |
@@ -41,7 +41,7 @@ Outside of code, I write poetry and essays — trying to keep engineering and la
 <!-- profile:end:now-building -->
 
 <!-- profile:start:maintenance -->
-> Profile metrics auto-refreshed via GitHub Actions · 数据自动更新于 **2026-07-17 08:03 UTC**
+> Profile metrics auto-refreshed via GitHub Actions · 数据自动更新于 **2026-07-18 07:42 UTC**
 <!-- profile:end:maintenance -->
 
 ---
