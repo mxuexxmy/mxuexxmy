@@ -18,7 +18,7 @@
       <text x="198" y="126" fill="#c0caf5" font-size="24" font-weight="700" font-family="Consolas, monospace">73</text>
       <rect x="340" y="72" width="146" height="72" rx="10" fill="#24283b" stroke="#414868"/>
       <text x="356" y="98" fill="#565f89" font-size="11" font-family="Segoe UI, sans-serif">Followers</text>
-      <text x="356" y="126" fill="#c0caf5" font-size="24" font-weight="700" font-family="Consolas, monospace">147</text>
+      <text x="356" y="126" fill="#c0caf5" font-size="24" font-weight="700" font-family="Consolas, monospace">146</text>
   <text x="24" y="168" fill="#9ece6a" font-size="12" font-family="Consolas, monospace">top languages by repo count</text>
   
           <text x="24" y="188" fill="#a9b1d6" font-size="12" font-family="Consolas, monospace">Java</text>
