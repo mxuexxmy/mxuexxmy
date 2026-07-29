@@ -102,6 +102,10 @@ Engineering + Words  code by day, poetry by night
 
 - [人在路上·梦在途中](https://mp.weixin.qq.com/s/NFxldytnuXslYPxSfKOIhQ) — WeChat essay / 微信公众号
 
+**AI-written Portrait Poem / AI 写作**
+
+- [我从代码里认识你](./writing/我从代码里认识你.md) — “你把设备、数据与远方的工厂，写进 Java 的秩序。” — **GPT-5.6 Sol**，为玄兴梦影而作
+
 **Poetry · 玄兴梦影** *(poetic pen name / 诗歌笔名)*
 
 [梦幻九月](https://mp.weixin.qq.com/s?src=11&timestamp=1606197141&ver=2725&signature=eVVMhOoXHfNQtvv0qraNOFROXH97DpZR6il-qn77HZRb-uR47QLhop2*xpwmEcj4ZazcIGVS0v8MyPbEMSIHPUh2fWCmefl5NSrCSId65r866nMF-hLHjhC2fdLVsxzs&new=1) · [偷时光](https://www.sohu.com/a/271410642_581694) · [我见过的唯一月亮](http://mini.eastday.com/a/180627132001527.html) · [父亲](https://www.sohu.com/a/236518971_581694) · [程序员的秋](http://www.zgshige.com/c/2018-10-25/7503696.shtml) · [与树说诗的程序员](http://www.zgshige.com/c/2018-10-09/7347609.shtml)
