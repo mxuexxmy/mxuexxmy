@@ -82,9 +82,13 @@ function extractMarkerBlock(content, startMarker, endMarker) {
   return match?.[1] ?? null;
 }
 
+function findRepo(repoMap, repoName) {
+  return repoMap.get(repoName.toLowerCase()) ?? null;
+}
+
 function buildNowBuildingTable(featured, repoMap) {
   const rows = featured.map((item) => {
-    const repo = repoMap.get(item.repo);
+    const repo = findRepo(repoMap, item.repo);
     if (!repo) {
       throw new Error(`Featured repo not found: ${item.repo}`);
     }
@@ -93,7 +97,7 @@ function buildNowBuildingTable(featured, repoMap) {
     const lang = repo.language ?? "—";
     const stars = repo.stargazers_count ?? 0;
     const updated = formatDate(repo.pushed_at);
-    const link = `[${item.repo}](https://github.com/${repo.full_name.split("/")[0]}/${item.repo})`;
+    const link = `[${repo.name}](https://github.com/${repo.full_name})`;
     const desc = `${item.description_en} / ${item.description_zh}`;
 
     return `| ${link} | ${tags} | ${lang} | ${stars} | ${updated} | ${desc} |`;
@@ -189,7 +193,15 @@ async function main() {
     fetchAllRepos(username),
   ]);
 
-  const repoMap = new Map(repos.map((repo) => [repo.name, repo]));
+  const repoMap = new Map(repos.map((repo) => [repo.name.toLowerCase(), repo]));
+
+  for (const item of projects.featured) {
+    if (findRepo(repoMap, item.repo)) continue;
+    const resolved = await githubFetch(`/repos/${username}/${item.repo}`);
+    repoMap.set(resolved.name.toLowerCase(), resolved);
+    repoMap.set(item.repo.toLowerCase(), resolved);
+  }
+
   const topLanguages = computeLanguageStats(repos);
 
   const nowBuilding = buildNowBuildingTable(projects.featured, repoMap);
