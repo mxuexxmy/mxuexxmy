@@ -1,40 +1,127 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="495" height="280" viewBox="0 0 495 280">
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="430" viewBox="0 0 700 430" role="img" aria-labelledby="title desc">
+  <title id="title">mxuexxmy GitHub profile metrics</title>
+  <desc id="desc">Repository, star, follower, and primary language statistics.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#1a1b27"/>
-      <stop offset="100%" stop-color="#16161e"/>
+      <stop offset="0%" stop-color="#070b16"/>
+      <stop offset="55%" stop-color="#0b1122"/>
+      <stop offset="100%" stop-color="#090d19"/>
     </linearGradient>
+    <linearGradient id="card-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#111a31" stop-opacity="0.96"/>
+      <stop offset="100%" stop-color="#0d1428" stop-opacity="0.88"/>
+    </linearGradient>
+    <radialGradient id="aurora" cx="0" cy="0" r="1" gradientTransform="translate(610 10) rotate(135) scale(330 250)">
+      <stop offset="0%" stop-color="#5b5fff" stop-opacity="0.26"/>
+      <stop offset="45%" stop-color="#16c8d9" stop-opacity="0.09"/>
+      <stop offset="100%" stop-color="#070b16" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#7f8db3" stroke-opacity="0.055" stroke-width="1"/>
+    </pattern>
+    <filter id="soft-glow" x="-300%" y="-300%" width="700%" height="700%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .eyebrow { fill: #63e6ff; font: 600 12px "SFMono-Regular", Consolas, monospace; letter-spacing: 0.7px; }
+      .title { fill: #eef3ff; font: 650 25px "Segoe UI", Inter, sans-serif; letter-spacing: -0.4px; }
+      .subtitle { fill: #7281a5; font: 12px "Segoe UI", Inter, sans-serif; }
+      .status { fill: #8b98b7; font: 10px "SFMono-Regular", Consolas, monospace; letter-spacing: 0.8px; }
+      .metric-label { fill: #8997b8; font: 600 10px "SFMono-Regular", Consolas, monospace; letter-spacing: 0.9px; }
+      .metric-value { fill: #f4f7ff; font: 700 36px "SFMono-Regular", Consolas, monospace; letter-spacing: -1px; }
+      .metric-unit { fill: #5f6d8e; font: 11px "Segoe UI", Inter, sans-serif; }
+      .section-label { fill: #9ba8c8; font: 600 11px "SFMono-Regular", Consolas, monospace; letter-spacing: 1px; }
+      .lang-name { fill: #c5cee5; font: 13px "SFMono-Regular", Consolas, monospace; }
+      .lang-count { fill: #8391b2; font: 12px "SFMono-Regular", Consolas, monospace; }
+      .muted { fill: #5f6d8e; font: 12px "SFMono-Regular", Consolas, monospace; }
+    </style>
   </defs>
-  <rect width="495" height="280" rx="12" fill="url(#bg)" stroke="#414868"/>
-  <text x="24" y="34" fill="#7aa2f7" font-size="13" font-family="Consolas, monospace">mxuexxmy@github</text>
-  <text x="24" y="54" fill="#c0caf5" font-size="18" font-weight="700" font-family="Segoe UI, sans-serif">Profile Metrics</text>
-  
-      <rect x="24" y="72" width="146" height="72" rx="10" fill="#24283b" stroke="#414868"/>
-      <text x="40" y="98" fill="#565f89" font-size="11" font-family="Segoe UI, sans-serif">Public Repos</text>
-      <text x="40" y="126" fill="#c0caf5" font-size="24" font-weight="700" font-family="Consolas, monospace">672</text>
-      <rect x="182" y="72" width="146" height="72" rx="10" fill="#24283b" stroke="#414868"/>
-      <text x="198" y="98" fill="#565f89" font-size="11" font-family="Segoe UI, sans-serif">Total Stars</text>
-      <text x="198" y="126" fill="#c0caf5" font-size="24" font-weight="700" font-family="Consolas, monospace">76</text>
-      <rect x="340" y="72" width="146" height="72" rx="10" fill="#24283b" stroke="#414868"/>
-      <text x="356" y="98" fill="#565f89" font-size="11" font-family="Segoe UI, sans-serif">Followers</text>
-      <text x="356" y="126" fill="#c0caf5" font-size="24" font-weight="700" font-family="Consolas, monospace">146</text>
-  <text x="24" y="168" fill="#9ece6a" font-size="12" font-family="Consolas, monospace">top languages by repo count</text>
-  
-          <text x="24" y="188" fill="#a9b1d6" font-size="12" font-family="Consolas, monospace">Java</text>
-          <rect x="120" y="176" width="180" height="10" rx="3" fill="#7aa2f7" opacity="0.85"/>
-          <text x="310" y="188" fill="#565f89" font-size="11" font-family="Consolas, monospace" text-anchor="end">37</text>
-          <text x="24" y="210" fill="#a9b1d6" font-size="12" font-family="Consolas, monospace">JavaScript</text>
-          <rect x="120" y="198" width="102" height="10" rx="3" fill="#7aa2f7" opacity="0.85"/>
-          <text x="310" y="210" fill="#565f89" font-size="11" font-family="Consolas, monospace" text-anchor="end">21</text>
-          <text x="24" y="232" fill="#a9b1d6" font-size="12" font-family="Consolas, monospace">C++</text>
-          <rect x="120" y="220" width="68" height="10" rx="3" fill="#7aa2f7" opacity="0.85"/>
-          <text x="310" y="232" fill="#565f89" font-size="11" font-family="Consolas, monospace" text-anchor="end">14</text>
-          <text x="24" y="254" fill="#a9b1d6" font-size="12" font-family="Consolas, monospace">HTML</text>
-          <rect x="120" y="242" width="49" height="10" rx="3" fill="#7aa2f7" opacity="0.85"/>
-          <text x="310" y="254" fill="#565f89" font-size="11" font-family="Consolas, monospace" text-anchor="end">10</text>
-          <text x="24" y="276" fill="#a9b1d6" font-size="12" font-family="Consolas, monospace">Python</text>
-          <rect x="120" y="264" width="44" height="10" rx="3" fill="#7aa2f7" opacity="0.85"/>
-          <text x="310" y="276" fill="#565f89" font-size="11" font-family="Consolas, monospace" text-anchor="end">9</text>
-  <text x="471" y="268" fill="#565f89" font-size="10" font-family="Consolas, monospace" text-anchor="end">generated locally</text>
+  <rect x="0.5" y="0.5" width="699" height="429" rx="20" fill="url(#bg)" stroke="#273552"/>
+  <rect x="1" y="1" width="698" height="428" rx="19" fill="url(#aurora)"/>
+  <rect x="1" y="1" width="698" height="428" rx="19" fill="url(#grid)"/>
+
+  <path d="M28 87 H374 C388 87 392 91 392 105 V219" fill="none" stroke="#63e6ff" stroke-opacity="0.18"/>
+  <circle cx="28" cy="87" r="2.5" fill="#63e6ff"/>
+  <circle cx="392" cy="219" r="2.5" fill="#63e6ff" opacity="0.55"/>
+
+  <text x="28" y="32" class="eyebrow">mxuexxmy@github</text>
+  <text x="28" y="65" class="title">Repository Telemetry</text>
+  <text x="28" y="84" class="subtitle">Public signals from code, projects, and community</text>
+
+  <circle cx="584" cy="30" r="3" fill="#5ee6a8" filter="url(#soft-glow)"/>
+  <text x="595" y="34" class="status">SYNC / LIVE</text>
+  <text x="672" y="54" class="status" text-anchor="end">GENERATED LOCALLY</text>
+
+  <g>
+    <rect x="28" y="101" width="200" height="118" rx="16" fill="url(#card-bg)" stroke="#263657"/>
+    <rect x="28" y="101" width="200" height="2" rx="1" fill="#63e6ff"/>
+    <circle cx="200" cy="130" r="15" fill="#63e6ff" opacity="0.08"/>
+    <circle cx="200" cy="130" r="4" fill="#63e6ff" filter="url(#soft-glow)"/>
+    <text x="46" y="132" class="metric-label">PUBLIC REPOS</text>
+    <text x="46" y="177" class="metric-value">672</text>
+    <text x="46" y="201" class="metric-unit">repositories</text>
+  </g>
+  <g>
+    <rect x="244" y="101" width="200" height="118" rx="16" fill="url(#card-bg)" stroke="#263657"/>
+    <rect x="244" y="101" width="200" height="2" rx="1" fill="#9b8cff"/>
+    <circle cx="416" cy="130" r="15" fill="#9b8cff" opacity="0.08"/>
+    <circle cx="416" cy="130" r="4" fill="#9b8cff" filter="url(#soft-glow)"/>
+    <text x="262" y="132" class="metric-label">TOTAL STARS</text>
+    <text x="262" y="177" class="metric-value">76</text>
+    <text x="262" y="201" class="metric-unit">earned across repos</text>
+  </g>
+  <g>
+    <rect x="460" y="101" width="200" height="118" rx="16" fill="url(#card-bg)" stroke="#263657"/>
+    <rect x="460" y="101" width="200" height="2" rx="1" fill="#ffbd69"/>
+    <circle cx="632" cy="130" r="15" fill="#ffbd69" opacity="0.08"/>
+    <circle cx="632" cy="130" r="4" fill="#ffbd69" filter="url(#soft-glow)"/>
+    <text x="478" y="132" class="metric-label">FOLLOWERS</text>
+    <text x="478" y="177" class="metric-value">146</text>
+    <text x="478" y="201" class="metric-unit">people connected</text>
+  </g>
+
+  <text x="28" y="253" class="section-label">LANGUAGE DISTRIBUTION</text>
+  <text x="672" y="253" class="status" text-anchor="end">BY REPOSITORY COUNT</text>
+  <line x1="28" y1="264" x2="672" y2="264" stroke="#263657"/>
+
+  <g>
+    <text x="32" y="292" class="lang-name">Java</text>
+    <rect x="180" y="282" width="400" height="8" rx="4" fill="#17213d"/>
+    <rect x="180" y="282" width="400" height="8" rx="4" fill="#63e6ff" opacity="0.92"/>
+    <circle cx="580" cy="286" r="3" fill="#63e6ff" filter="url(#soft-glow)"/>
+    <text x="660" y="292" class="lang-count" text-anchor="end">37</text>
+  </g>
+  <g>
+    <text x="32" y="321" class="lang-name">JavaScript</text>
+    <rect x="180" y="311" width="400" height="8" rx="4" fill="#17213d"/>
+    <rect x="180" y="311" width="227" height="8" rx="4" fill="#8b9dff" opacity="0.92"/>
+    <circle cx="407" cy="315" r="3" fill="#8b9dff" filter="url(#soft-glow)"/>
+    <text x="660" y="321" class="lang-count" text-anchor="end">21</text>
+  </g>
+  <g>
+    <text x="32" y="350" class="lang-name">C++</text>
+    <rect x="180" y="340" width="400" height="8" rx="4" fill="#17213d"/>
+    <rect x="180" y="340" width="151" height="8" rx="4" fill="#c084fc" opacity="0.92"/>
+    <circle cx="331" cy="344" r="3" fill="#c084fc" filter="url(#soft-glow)"/>
+    <text x="660" y="350" class="lang-count" text-anchor="end">14</text>
+  </g>
+  <g>
+    <text x="32" y="379" class="lang-name">HTML</text>
+    <rect x="180" y="369" width="400" height="8" rx="4" fill="#17213d"/>
+    <rect x="180" y="369" width="108" height="8" rx="4" fill="#5ee6a8" opacity="0.92"/>
+    <circle cx="288" cy="373" r="3" fill="#5ee6a8" filter="url(#soft-glow)"/>
+    <text x="660" y="379" class="lang-count" text-anchor="end">10</text>
+  </g>
+  <g>
+    <text x="32" y="408" class="lang-name">Python</text>
+    <rect x="180" y="398" width="400" height="8" rx="4" fill="#17213d"/>
+    <rect x="180" y="398" width="97" height="8" rx="4" fill="#ffbd69" opacity="0.92"/>
+    <circle cx="277" cy="402" r="3" fill="#ffbd69" filter="url(#soft-glow)"/>
+    <text x="660" y="408" class="lang-count" text-anchor="end">9</text>
+  </g>
 </svg>

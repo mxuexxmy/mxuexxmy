@@ -134,45 +134,109 @@ function buildStatsSvg({ username, user, repos, topLanguages }) {
   const followers = user.followers ?? 0;
 
   const metrics = [
-    { label: "Public Repos", value: String(publicRepos) },
-    { label: "Total Stars", value: String(totalStars) },
-    { label: "Followers", value: String(followers) },
+    { label: "PUBLIC REPOS", value: String(publicRepos), accent: "#63e6ff", unit: "repositories" },
+    { label: "TOTAL STARS", value: String(totalStars), accent: "#9b8cff", unit: "earned across repos" },
+    { label: "FOLLOWERS", value: String(followers), accent: "#ffbd69", unit: "people connected" },
   ];
+
+  const languageColors = ["#63e6ff", "#8b9dff", "#c084fc", "#5ee6a8", "#ffbd69"];
+  const maxLanguageCount = topLanguages[0]?.[1] ?? 1;
 
   const langLines = topLanguages.length
     ? topLanguages.map(([lang, count], index) => {
-        const y = 188 + index * 22;
-        const width = Math.max(24, Math.round((count / topLanguages[0][1]) * 180));
+        const y = 292 + index * 29;
+        const width = Math.max(20, Math.round((count / maxLanguageCount) * 400));
+        const color = languageColors[index % languageColors.length];
         return `
-          <text x="24" y="${y}" fill="#a9b1d6" font-size="12" font-family="Consolas, monospace">${escapeXml(lang)}</text>
-          <rect x="120" y="${y - 12}" width="${width}" height="10" rx="3" fill="#7aa2f7" opacity="0.85"/>
-          <text x="310" y="${y}" fill="#565f89" font-size="11" font-family="Consolas, monospace" text-anchor="end">${count}</text>`;
+      <g>
+        <text x="32" y="${y}" class="lang-name">${escapeXml(lang)}</text>
+        <rect x="180" y="${y - 10}" width="400" height="8" rx="4" fill="#17213d"/>
+        <rect x="180" y="${y - 10}" width="${width}" height="8" rx="4" fill="${color}" opacity="0.92"/>
+        <circle cx="${180 + width}" cy="${y - 6}" r="3" fill="${color}" filter="url(#soft-glow)"/>
+        <text x="660" y="${y}" class="lang-count" text-anchor="end">${count}</text>
+      </g>`;
       }).join("")
-    : `<text x="24" y="200" fill="#565f89" font-size="12" font-family="Consolas, monospace">No language data</text>`;
+    : `<text x="32" y="302" class="muted">No language data</text>`;
 
   const metricCards = metrics.map((metric, index) => {
-    const x = 24 + index * 158;
+    const x = 28 + index * 216;
     return `
-      <rect x="${x}" y="72" width="146" height="72" rx="10" fill="#24283b" stroke="#414868"/>
-      <text x="${x + 16}" y="98" fill="#565f89" font-size="11" font-family="Segoe UI, sans-serif">${metric.label}</text>
-      <text x="${x + 16}" y="126" fill="#c0caf5" font-size="24" font-weight="700" font-family="Consolas, monospace">${escapeXml(metric.value)}</text>`;
+    <g>
+      <rect x="${x}" y="101" width="200" height="118" rx="16" fill="url(#card-bg)" stroke="#263657"/>
+      <rect x="${x}" y="101" width="200" height="2" rx="1" fill="${metric.accent}"/>
+      <circle cx="${x + 172}" cy="130" r="15" fill="${metric.accent}" opacity="0.08"/>
+      <circle cx="${x + 172}" cy="130" r="4" fill="${metric.accent}" filter="url(#soft-glow)"/>
+      <text x="${x + 18}" y="132" class="metric-label">${metric.label}</text>
+      <text x="${x + 18}" y="177" class="metric-value">${escapeXml(metric.value)}</text>
+      <text x="${x + 18}" y="201" class="metric-unit">${metric.unit}</text>
+    </g>`;
   }).join("");
 
   return `<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="495" height="280" viewBox="0 0 495 280">
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="430" viewBox="0 0 700 430" role="img" aria-labelledby="title desc">
+  <title id="title">${escapeXml(username)} GitHub profile metrics</title>
+  <desc id="desc">Repository, star, follower, and primary language statistics.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#1a1b27"/>
-      <stop offset="100%" stop-color="#16161e"/>
+      <stop offset="0%" stop-color="#070b16"/>
+      <stop offset="55%" stop-color="#0b1122"/>
+      <stop offset="100%" stop-color="#090d19"/>
     </linearGradient>
+    <linearGradient id="card-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#111a31" stop-opacity="0.96"/>
+      <stop offset="100%" stop-color="#0d1428" stop-opacity="0.88"/>
+    </linearGradient>
+    <radialGradient id="aurora" cx="0" cy="0" r="1" gradientTransform="translate(610 10) rotate(135) scale(330 250)">
+      <stop offset="0%" stop-color="#5b5fff" stop-opacity="0.26"/>
+      <stop offset="45%" stop-color="#16c8d9" stop-opacity="0.09"/>
+      <stop offset="100%" stop-color="#070b16" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#7f8db3" stroke-opacity="0.055" stroke-width="1"/>
+    </pattern>
+    <filter id="soft-glow" x="-300%" y="-300%" width="700%" height="700%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .eyebrow { fill: #63e6ff; font: 600 12px "SFMono-Regular", Consolas, monospace; letter-spacing: 0.7px; }
+      .title { fill: #eef3ff; font: 650 25px "Segoe UI", Inter, sans-serif; letter-spacing: -0.4px; }
+      .subtitle { fill: #7281a5; font: 12px "Segoe UI", Inter, sans-serif; }
+      .status { fill: #8b98b7; font: 10px "SFMono-Regular", Consolas, monospace; letter-spacing: 0.8px; }
+      .metric-label { fill: #8997b8; font: 600 10px "SFMono-Regular", Consolas, monospace; letter-spacing: 0.9px; }
+      .metric-value { fill: #f4f7ff; font: 700 36px "SFMono-Regular", Consolas, monospace; letter-spacing: -1px; }
+      .metric-unit { fill: #5f6d8e; font: 11px "Segoe UI", Inter, sans-serif; }
+      .section-label { fill: #9ba8c8; font: 600 11px "SFMono-Regular", Consolas, monospace; letter-spacing: 1px; }
+      .lang-name { fill: #c5cee5; font: 13px "SFMono-Regular", Consolas, monospace; }
+      .lang-count { fill: #8391b2; font: 12px "SFMono-Regular", Consolas, monospace; }
+      .muted { fill: #5f6d8e; font: 12px "SFMono-Regular", Consolas, monospace; }
+    </style>
   </defs>
-  <rect width="495" height="280" rx="12" fill="url(#bg)" stroke="#414868"/>
-  <text x="24" y="34" fill="#7aa2f7" font-size="13" font-family="Consolas, monospace">mxuexxmy@github</text>
-  <text x="24" y="54" fill="#c0caf5" font-size="18" font-weight="700" font-family="Segoe UI, sans-serif">Profile Metrics</text>
+  <rect x="0.5" y="0.5" width="699" height="429" rx="20" fill="url(#bg)" stroke="#273552"/>
+  <rect x="1" y="1" width="698" height="428" rx="19" fill="url(#aurora)"/>
+  <rect x="1" y="1" width="698" height="428" rx="19" fill="url(#grid)"/>
+
+  <path d="M28 87 H374 C388 87 392 91 392 105 V219" fill="none" stroke="#63e6ff" stroke-opacity="0.18"/>
+  <circle cx="28" cy="87" r="2.5" fill="#63e6ff"/>
+  <circle cx="392" cy="219" r="2.5" fill="#63e6ff" opacity="0.55"/>
+
+  <text x="28" y="32" class="eyebrow">${escapeXml(username)}@github</text>
+  <text x="28" y="65" class="title">Repository Telemetry</text>
+  <text x="28" y="84" class="subtitle">Public signals from code, projects, and community</text>
+
+  <circle cx="584" cy="30" r="3" fill="#5ee6a8" filter="url(#soft-glow)"/>
+  <text x="595" y="34" class="status">SYNC / LIVE</text>
+  <text x="672" y="54" class="status" text-anchor="end">GENERATED LOCALLY</text>
+
   ${metricCards}
-  <text x="24" y="168" fill="#9ece6a" font-size="12" font-family="Consolas, monospace">top languages by repo count</text>
+
+  <text x="28" y="253" class="section-label">LANGUAGE DISTRIBUTION</text>
+  <text x="672" y="253" class="status" text-anchor="end">BY REPOSITORY COUNT</text>
+  <line x1="28" y1="264" x2="672" y2="264" stroke="#263657"/>
   ${langLines}
-  <text x="471" y="268" fill="#565f89" font-size="10" font-family="Consolas, monospace" text-anchor="end">generated locally</text>
 </svg>
 `;
 }
