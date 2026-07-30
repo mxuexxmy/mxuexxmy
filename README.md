@@ -32,16 +32,16 @@ Outside of code, I write poetry and essays — trying to keep engineering and la
 <!-- profile:start:now-building -->
 | Project | Tags | Lang | Stars | Updated | Description / 简介 |
 | --- | --- | --- | ---: | --- | --- |
-| [awesome-lazycat-microserver](https://github.com/mxuexxmy/awesome-lazycat-microserver) | `LazyCat` `Ecosystem` | — | 6 | 2026-07-29 | Curated resources for LazyCat MicroServer / 懒猫微服资源大全 |
+| [awesome-lazycat-microserver](https://github.com/mxuexxmy/awesome-lazycat-microserver) | `LazyCat` `Ecosystem` | — | 8 | 2026-07-29 | Curated resources for LazyCat MicroServer / 懒猫微服资源大全 |
 | [BiliNote-lzc-app](https://github.com/mxuexxmy/BiliNote-lzc-app) | `LazyCat` `AI` | — | 3 | 2025-06-29 | BiliNote packaged as a LazyCat MicroServer app / BiliNote 懒猫微服应用 |
 | [lazycat-app](https://github.com/mxuexxmy/lazycat-app) | `LazyCat` `Vue` | Vue | 2 | 2025-07-28 | LazyCat application development workspace / 懒猫微服应用开发 |
-| [xifeng-style-writer](https://github.com/mxuexxmy/xifeng-style-writer) | `AI` `Agent` | — | 1 | 2026-04-24 | Writing-style SKILL for AI agents / 西风/记忆承载风格 AI Agent Skill |
+| [xifeng-style-writer](https://github.com/mxuexxmy/xifeng-style-writer) | `AI` `Agent` | — | 2 | 2026-07-30 | Writing-style SKILL for AI agents / 西风/记忆承载风格 AI Agent Skill |
 | [printing-service](https://github.com/mxuexxmy/printing-service) | `Java` `Full-stack` | Java | 1 | 2025-07-04 | Backend service for Rongrong Print / 荣荣打印后端服务 |
-| [professions](https://github.com/mxuexxmy/professions) | `Java` `Education` | HTML | 3 | 2024-08-21 | Major curriculum management system / 专业培养方案管理系统 |
+| [professions](https://github.com/mxuexxmy/professions) | `Java` `Education` | HTML | 4 | 2024-08-21 | Major curriculum management system / 专业培养方案管理系统 |
 <!-- profile:end:now-building -->
 
 <!-- profile:start:maintenance -->
-> Profile metrics auto-refreshed via GitHub Actions · 数据自动更新于 **2026-07-29 11:55 UTC**
+> Profile metrics auto-refreshed via GitHub Actions · 数据自动更新于 **2026-07-30 08:18 UTC**
 <!-- profile:end:maintenance -->
 
 ---
