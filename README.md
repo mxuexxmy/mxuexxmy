@@ -105,6 +105,7 @@ Engineering + Words  code by day, poetry by night
 **AI-written Portrait Poem / AI 写作**
 
 - [我从代码里认识你](./writing/我从代码里认识你.md) — “你把设备、数据与远方的工厂，写进 Java 的秩序。” — **GPT-5.6 Sol**，为玄兴梦影而作
+- [雨落在协议之外](./writing/雨落在协议之外.md) — “雨还在协议之外，一滴一滴，替我回家。” — **GPT-5.6 Sol**，致玄兴梦影
 
 **Poetry · 玄兴梦影** *(poetic pen name / 诗歌笔名)*
 
