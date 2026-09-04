@@ -73,7 +73,7 @@
       <circle cx="416" cy="130" r="15" fill="#9b8cff" opacity="0.08"/>
       <circle cx="416" cy="130" r="4" fill="#9b8cff" filter="url(#soft-glow)"/>
       <text x="262" y="132" class="metric-label">TOTAL STARS</text>
-      <text x="262" y="177" class="metric-value">108</text>
+      <text x="262" y="177" class="metric-value">109</text>
       <text x="262" y="201" class="metric-unit">earned across repos</text>
     </g>
     <g>
@@ -82,7 +82,7 @@
       <circle cx="632" cy="130" r="15" fill="#ffbd69" opacity="0.08"/>
       <circle cx="632" cy="130" r="4" fill="#ffbd69" filter="url(#soft-glow)"/>
       <text x="478" y="132" class="metric-label">FOLLOWERS</text>
-      <text x="478" y="177" class="metric-value">153</text>
+      <text x="478" y="177" class="metric-value">154</text>
       <text x="478" y="201" class="metric-unit">people connected</text>
     </g>
 
