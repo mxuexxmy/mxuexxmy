@@ -112,14 +112,14 @@
         <text x="660" y="350" class="lang-count" text-anchor="end">14</text>
       </g>
       <g>
-        <text x="32" y="379" class="lang-name">Python</text>
+        <text x="32" y="379" class="lang-name">HTML</text>
         <rect x="180" y="369" width="400" height="8" rx="4" fill="#17213d"/>
         <rect x="180" y="369" width="108" height="8" rx="4" fill="#5ee6a8" opacity="0.92"/>
         <circle cx="288" cy="373" r="3" fill="#5ee6a8" filter="url(#soft-glow)"/>
         <text x="660" y="379" class="lang-count" text-anchor="end">10</text>
       </g>
       <g>
-        <text x="32" y="408" class="lang-name">HTML</text>
+        <text x="32" y="408" class="lang-name">Python</text>
         <rect x="180" y="398" width="400" height="8" rx="4" fill="#17213d"/>
         <rect x="180" y="398" width="108" height="8" rx="4" fill="#ffbd69" opacity="0.92"/>
         <circle cx="288" cy="402" r="3" fill="#ffbd69" filter="url(#soft-glow)"/>
